@@ -47,6 +47,8 @@ char auth[] = "YourAuthToken";
 // Set password to "" for open networks.
 char ssid[] = "YourNetworkName";
 char pass[] = "YourPassword";
+int relayPin = 3;
+int loopDelay = 1000;// delay in loop
 
 void setup()
 {
